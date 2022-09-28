@@ -24,7 +24,7 @@ haystack and needle consist of only lowercase English characters.
 
 class IndexOfTheFirstOccurrenceInString {
     public int strStr(String haystack, String needle) {
-        
+        //return haystack.indexOf(needle);    -- one Line Solution
         if(needle.length()>haystack.length())
             return -1;
         for(int i =0; i< haystack.length() ; i++ ){
